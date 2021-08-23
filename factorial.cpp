@@ -5,7 +5,7 @@ v[1] = 1;
 
 int factorial(int n){
   if(n < 0){
-    cout << "PLease enter positive number: ";
+    printf("PLease enter positive number: ");
     cin >> n;
   }
   if(v[n]){
